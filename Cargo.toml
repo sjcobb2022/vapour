@@ -1,10 +1,14 @@
 [package]
 name = "vapour"
+keywords = [ "web", "framework", "http", "cli", "tool" ]
+authors = ["sjcobb"]
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "The CLI tooling for anvil"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-anvil = "0.1.0"
+anvil = { version = "0.1.0", features = ["axum"] }
 clap = { version = "4.5.20", features = ["derive"] }
