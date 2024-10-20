@@ -24,17 +24,17 @@ fn main() {
         Commands::Init => {
             println!("Initializing a new project...");
             // Here you can add your initialization logic
-            // unimplemented!();
+            unimplemented!();
         }
         Commands::Make => {
             println!("Creating a new resource...");
             // Here you can add your make logic
-            // unimplemented!();
+            unimplemented!();
         }
         Commands::Run => {
             println!("Running the project...");
             // Here you can add your run logic
-            // unimplemented!();
+            unimplemented!();
         }
     }
 }
